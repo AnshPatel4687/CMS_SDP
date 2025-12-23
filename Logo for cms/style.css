@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#splash-screen {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #03132b;
+  display: block;
+  /* Background image will fit without cropping, filling viewport */
+  background-image: url('logo.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#splash-screen img {
+  display: none;
+}
